@@ -15,20 +15,27 @@
     <div class="wrapper">
       <div class="left">
         <h3>ArcGIS Server Proxy</h3>
-        <p>
+        <p style="font-size:12px">
           Use ArcGIS Server map services as background layers in OpenStreetMap editors like iD and JOSM.
-        </p>
-        <p><font size="2">
+        <br><br>
+
           Hosted by <a href="http://www.openstreetmap.us">OpenStreetMap US</a><br>
           <a href="https://github.com/JasonSanford/tileify-ags-proxy">Forked with ♥</a><br>
           Code available <a href="https://github.com/osmus/tileify-ags-proxy">on Github</a>
-        </font>
+
         </p>
         <hr>
-        <p>
-          Paste your ArcGIS Server map service URL (ending with ..../MapServer) below.<br><br>
-          Use the URL parameters to specify a layer within the map service or make the background transparent. <br><br>
-          Click "Update Tile Layer" to refresh the map.
+        <p style="font-size:12px">
+          Paste your ArcGIS Server map service URL (ending with ..../MapServer ) below.<br><br>
+
+          Use the URL parameters to specify service properties, like: <br><br>
+
+          transparent | true (transparent background)<br>
+          layers | show:14 (shows layer 14 in the service)<br><br>
+
+          For all options see <a href="https://developers.arcgis.com/rest/services-reference/export-map.htm#GUID-C93E8957-99FD-473B-B0E1-68EA315EBD98">Esri Rest Service Docs.</a><br><br>
+
+          Click <b>Update Tile Layer</b> to refresh the map.
         </p>
         <form role="form">
           <div class="form-group">
