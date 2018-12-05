@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/JasonSanford/tileify-ags-proxy",
   "dependencies": {
-    "tileify-ags": "~2.0.0",
+    "tileify-ags": "JasonSanford/tileify-ags#8480db",
     "express": "~4.16.3",
     "request": "~2.88.0"
   },
